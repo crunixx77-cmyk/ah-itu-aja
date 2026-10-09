@@ -9,7 +9,6 @@ permissions: {} # none
 
 jobs:
   check-repository-health:
-    if: github.repository == 'termux/termux-packages'
     runs-on: ubuntu-slim
     steps:
       - name: Clone repository
